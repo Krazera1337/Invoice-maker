@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Receipt2Invoice",
+    "slug": "receipt2invoice",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#534AB7"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.demo.receipt2invoice",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow Receipt2Invoice to access your camera to scan receipts.",
+        "NSPhotoLibraryUsageDescription": "Allow Receipt2Invoice to access your photos to import receipts."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#534AB7"
+      },
+      "package": "com.demo.receipt2invoice",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
+    }
+  }
+}
